@@ -42,7 +42,8 @@ class TV:
   def setControl(self, nControl):
     self.control = nControl
   
-  def getNumTV(self):
+  @classmethod
+  def getNumTV(cls):
     return TV._numTV
   
   @classmethod
