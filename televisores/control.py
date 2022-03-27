@@ -5,6 +5,9 @@ class Control:
   def setTv(self, nTv):
     self.tv = nTv
   
+  def getTv(self):
+    return self.tv
+  
   def turnOn(self):
     self.tv.turnOn()
   
